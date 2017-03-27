@@ -22,5 +22,4 @@ Justin Oakley - Design and Development - (justinoakley.info)
 
 ## Acknowledgments
 
-Many thanks to Alison, Colin, and Luke! Your insights proved helpful and educational. Hope you get to have more fun with this project!
--Justin
+Many thanks to Alison, Colin, and Luke! Your insights proved helpful and educational. -Justin
