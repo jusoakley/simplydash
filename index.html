@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Simply Dash</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="http://code.highcharts.com/highcharts.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+<button id="auth-button" hidden>Authorize</button>
+
+<div><img src="imgs/header.png" id="logo"></div>
+<section id="users">
+  <div id="usersChart" width="960px" height="500px"></div>
+</section>
+
+<section id="pageviews">
+  <div id="scores">
+    <div id="pageviewsScore" class="scorecard">
+      <p class="scoreTitle">Pageviews</p>
+      <h3 id="totalPageviews" class="totalScore"></h3>
+    </div>
+    <div id="entrancesScore" class="scorecard">
+      <p class="scoreTitle">Entrances</p>
+      <h3 id="totalEntrances" class="totalScore"></h3>
+    </div>
+    <div id="exitsScore" class="scorecard">
+      <p class="scoreTitle">Exit Rate</p>
+      <h3 id="exitRate" class="totalScore"></h3>
+    </div>
+  </div>
+  <div id="pageviewsTable">
+    <p id="tableTitle">Top Pages</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Page Path</th>
+          <th>Pageviews</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="devices">
+  <div id="deviceChart" width="960px" height="500px"></div>
+</section>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+<script src="https://apis.google.com/js/client.js?onload=authorize"></script>
+</html>
